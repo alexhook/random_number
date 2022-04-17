@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block title %}<title>Вход</title>{% endblock %}
+
+{% block content %}
+<a href="{% url 'social:begin' 'github' %}">
+    <div class="github">
+        <img src="/media/img/github-oct.png">
+        <img src="/media/img/github-logo.png">
+    </div>
+</a>
+{% endblock %}
